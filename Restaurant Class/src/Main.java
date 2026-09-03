@@ -1,13 +1,15 @@
 void main() {
-    int waitTime = 0;
-    double rating = 0.0;
-    double avgPrice = 0.0;
-    double distance = 0.0;
-    String hoursOpen = null;
+    String restaurantName = "In-N-Out Burger";
+    int waitTime = 10;
+    double rating = 3.9;
+    double avgPrice = 10.00;
+    double distance = 11.0;
+    String hoursOpen = "10:30 AM - 1:00 AM";
 
-    System.out.println(waitTime);
-    System.out.println(rating);
-    System.out.println(avgPrice);
-    System.out.println(distance);
+    System.out.println(restaurantName);
+    System.out.println(waitTime + " minutes");
+    System.out.println(rating + " stars");
+    System.out.println("$" + avgPrice);
+    System.out.println(distance + " miles");
     System.out.println(hoursOpen);
 }
